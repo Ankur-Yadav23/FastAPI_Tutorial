@@ -1,0 +1,10 @@
+1. Created virtual environment
+python -m venv fastapi-env
+2. Activate virtual environment
+.\fastapi-env\Scripts\activate
+3. Install fastAPI
+pip install fastapi
+4. Install uvicorn
+pip install uvicorn
+5. To Run the server
+uvicorn main:app --reload
